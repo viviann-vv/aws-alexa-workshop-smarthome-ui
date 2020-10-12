@@ -7,10 +7,11 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import API from '@aws-amplify/api-graphql';
+
 import Amplify, { Auth } from 'aws-amplify';
 import awsconfig from './aws-exports';
-import { withAuthenticator } from 'aws-amplify-react'
+import { withAuthenticator } from 'aws-amplify-react';
+import API from '@aws-amplify/api-graphql';
 
 import Device from './Device';
 
