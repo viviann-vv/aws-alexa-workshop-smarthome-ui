@@ -12,8 +12,6 @@ frontend:
         - yarn install
     build:
       commands:
-        - cd node_modules/aws-amplify-react
-        - npm i --save @aws-amplify/api
         - yarn run build
   artifacts:
     baseDirectory: build
