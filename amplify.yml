@@ -9,9 +9,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        - yarn install
         - cd node_modules/aws-amplify-react
         - npm i --save @aws-amplify/api
+        - yarn install
     build:
       commands:
         - yarn run build
