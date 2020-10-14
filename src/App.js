@@ -11,7 +11,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Amplify, { Auth } from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react';
-import API from '@aws-amplify/api-graphql';
 
 import Device from './Device';
 
